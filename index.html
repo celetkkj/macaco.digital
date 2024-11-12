@@ -25,6 +25,20 @@
 
         h1 {
             font-size: 2rem;
+            margin: 20px 0;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 0.8rem;
+            color: gray;
+        }
+
+        a {
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
         }
 
         @font-face {
@@ -34,7 +48,18 @@
     </style>
 </head>
 <body>
-    <img src="https://media.discordapp.net/attachments/1162174549337575479/1305866639169818664/Q93NEf8.gif?ex=67349694&is=67334514&hm=6e1f416ea4e2ec4007dfc4a6de3f80530c3791bef0de0e832458dc957847c2c7&=" alt="Imagem Central">
+    <img src="https://c0de.wtf/Q93NEf8.gif" alt="monki flip">
     <h1>macaco digital</h1>
+    <footer>
+        Site por: celet, kau & <a id="code">c0dE</a>
+    </footer>
+
+    <script>
+        const code = document.getElementById('code');
+
+        code.addEventListener('click', function() {
+            window.open('https://c0de.wtf', '_blank');
+        });
+    </script>
 </body>
 </html>
